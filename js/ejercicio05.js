@@ -5,4 +5,5 @@
 let numero1 = parseInt(prompt("Introduza un número: ")); 
 let numero2 = parseInt(prompt("Introduza otro número: ")); 
 document.write("El resultado de sumar " + " " + numero1 + " " + "mas" + " " + numero2 + " " + "es:" + " " + (numero1 + numero2));
+//Otra manera de concatenar 
 document.write(`<br> El resultado de sumar ${numero1} + ${numero2} es = ${(numero1 + numero2)} `);

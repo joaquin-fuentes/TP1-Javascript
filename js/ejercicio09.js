@@ -5,7 +5,7 @@ Nota: Tener en cuenta la función length y substring o charAt (developer mozilla
 
 //obtener frase
 
-let frase = prompt("Ingrese una fase: ")
+let frase = prompt("Ingrese una fase: ");
 
 for (i = 0; i < frase.length; i++) {
     if (frase.charAt(i) === "a" || frase.charAt(i) === "á" || frase.charAt(i) === "A" || frase.charAt(i) === "Á" ||
@@ -13,9 +13,9 @@ for (i = 0; i < frase.length; i++) {
         frase.charAt(i) === "i" || frase.charAt(i) === "í" || frase.charAt(i) === "I" || frase.charAt(i) === "Í" ||
         frase.charAt(i) === "o" || frase.charAt(i) === "ó" || frase.charAt(i) === "O" || frase.charAt(i) === "Ó" ||
         frase.charAt(i) === "u" || frase.charAt(i) === "ú" || frase.charAt(i) === "U" || frase.charAt(i) === "U") {
-        
-        document.write(frase.charAt(i) )
-        document.write("<br>")
-    }
-}
+
+        document.write(frase.charAt(i));
+        document.write("<br>");
+    };
+};
 

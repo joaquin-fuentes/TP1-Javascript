@@ -14,4 +14,4 @@ if (numero1 > numero2 && numero1 > numero3) {
     document.write("El mayor de los tres numeros es el:" + " " + numero3);
 } else {
     document.write("Para determinar cual número es mayor, estos deben ser diferentes");
-}
+};
